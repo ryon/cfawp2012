@@ -420,17 +420,13 @@ top: 60px;}
   float: left;
   width: 300px;
   margin-top: 30px;
-  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .home-tile p {
   font-size: 13px;
   margin: 0 0 8px;
   padding:0;
-}
-
-.home-tile:first-child {
-  margin-left: 0;
 }
 
 .home-tile h2 {
@@ -479,11 +475,12 @@ top: 60px;}
 
 #cfa-blog h2 a.like-btn {
   position: absolute;
-  top: -1px;
+  top: 0;
   left: 0;
   width: 24px;
   height: 24px;
   background: url(images/rss-icon.gif) 0 0 no-repeat;
+  margin-top: 0;
 }
 
 #cfa-blog li {
@@ -492,6 +489,7 @@ top: 60px;}
 }
 
 #cfa-blog li h3 {
+  float: none;
   font-size: 1em;
 }
 
@@ -712,6 +710,7 @@ h2.lh {
   float: right;
   width: 300px;
   display: block;
+  margin-right: 0;
 }
 #inner .right-col {
   padding-top: 28px;
